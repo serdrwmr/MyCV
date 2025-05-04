@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyo | Yazılım Geliştirici</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <video autoplay muted loop id="arkaplan-video">
+        <source src="assets/arkaplan.mp4" type="video/mp4">
+    </video>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#ana-sayfa" class="nav-link">Ana Sayfa</a>
+                <a href="#hakkimda" class="nav-link">Hakkımda</a>
+                <a href="#yetenekler" class="nav-link">Yetenekler</a>
+                <a href="#projeler" class="nav-link">Projeler</a>
+                <a href="#iletisim" class="nav-link">İletişim</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header id="ana-sayfa" class="ana-sayfa">
+            <div class="profil-bilgileri">
+                <div class="profil-foto">
+                    <img src="assets/profil.jpg" alt="Profil Fotoğrafı">
+                </div>
+                <div class="bilgiler">
+                    <h1 class="isim"><span>Serdar Demircan</span></h1>
+                    <h2 class="meslek"><span>Yazılım Geliştirici</span></h2>
+                </div>
+            </div>
+            <div class="sosyal-medya">
+                <a href="https://github.com/serdrwmr" class="sosyal-link" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://discord.gg/7J55RG8aaG" class="sosyal-link" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://www.instagram.com/serdrwmr/" class="sosyal-link" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </header>
+
+        <main>
+            <section id="hakkimda" class="hakkimda">
+                <h2>Hakkımda</h2>
+                <p>Ben Serdar Demircan. Şu anda öğrenciyim ve aynı zamanda yazılım alanında kendimi geliştirmeye devam ediyorum. 
+                    JavaScript, Python, CSS ve HTML gibi teknolojilerle projeler geliştiriyor, özellikle web dünyasında tecrübe kazanmayı 
+                    hedefliyorum. Şu sıralar kendi satış platformumu oluşturmak üzerine çalışıyorum.
+                     Bu proje sayesinde hem teknik becerilerimi ilerletiyor hem de girişimcilik yönümü keşfediyorum.
+                    İleride bir yazılım geliştirici olarak profesyonel bir şirkette çalışmak, gerçek dünya projelerinde yer almak ve yeteneklerimi daha da
+                     ileri taşımak istiyorum. Boş zamanlarımda oyun oynamaktan keyif alırım ve aynı zamanda yazılımla ilgili yeni şeyler öğrenmekten hiç vazgeçmem.</p>
+            </section>
+
+            <section id="yetenekler">
+                <h2>Yetenekler</h2>
+                <div class="yetenek-listesi">
+                    <div class="yetenek-slider">
+                        <div class="yetenek-emoji" data-yetenek="0">💻</div>
+                        <div class="yetenek-emoji" data-yetenek="1">🌐</div>
+                        <div class="yetenek-emoji" data-yetenek="2">🐍</div>
+                        <div class="yetenek-emoji" data-yetenek="3">🎨</div>
+                        <div class="yetenek-emoji" data-yetenek="4">✨</div>
+                    </div>
+                    <div class="slider-button prev">❮</div>
+                    <div class="slider-button next">❯</div>
+                    <div class="yetenek-isim">JavaScript</div>
+                    <div class="yetenekler-container">
+                        <div class="yetenekler" data-yetenek="0">
+                            <h3>JavaScript</h3>
+                            <p>Modern web uygulamaları geliştirme, DOM manipülasyonu ve interaktif kullanıcı arayüzleri oluşturma</p>
+                        </div>
+                        <div class="yetenekler" data-yetenek="1">
+                            <h3>HTML</h3>
+                            <p>Semantik HTML yapısı, formlar ve modern web standartları</p>
+                        </div>
+                        <div class="yetenekler" data-yetenek="2">
+                            <h3>Python</h3>
+                            <p>Backend geliştirme, veri analizi ve otomasyon</p>
+                        </div>
+                        <div class="yetenekler" data-yetenek="3">
+                            <h3>CSS</h3>
+                            <p>Responsive tasarım, animasyonlar ve modern CSS özellikleri</p>
+                        </div>
+                        <div class="yetenekler" data-yetenek="4">
+                            <h3>Web Design</h3>
+                            <p>Kullanıcı deneyimi, modern arayüz tasarımı ve responsive layout</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projeler" class="projeler">
+                <h2>Projeler</h2>
+                <div class="proje-listesi">
+                    <div class="proje">
+                        <div class="video-container">
+                            <video class="proje-video" loop muted>
+                                <source src="assets/proje1.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-overlay"></div>
+                        </div>
+                        <h3>Yılan Oyunu</h3>
+                        <p>Python ile yapılmış bir yılan oyunu.</p>
+                        <a href="proje1.html" class="proje-buton">Detaylar</a>
+                    </div>
+                    <div class="proje">
+                        <div class="video-container">
+                            <video class="proje-video" loop muted>
+                                <source src="assets/proje2.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-overlay"></div>
+                        </div>
+                        <h3>Şifre Oluşturma</h3>
+                        <p>Hesap bilgisi kayıt etmek ve şifre oluşturmak için kullanılır.</p>
+                        <a href="proje2.html" class="proje-buton">Detaylar</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="iletisim" class="iletisim">
+                <h2>İletişim</h2>
+                <div class="iletisim-bilgileri">
+                    <p><i class="fas fa-envelope"></i> 📧 demircanserdar088@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 📱 +90 551 683 01 00</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 📍 Konya, Türkiye</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
